@@ -495,7 +495,7 @@ footer li {
 
 /* mobile Phone */
 
-@media (max-width: 576px) {
+@media (max-width: 500px) {
   html {
     font-size: 70.5%;
   }
@@ -506,13 +506,13 @@ footer li {
   }
 
   .timeline li .timeline-image {
-    width: 110px;
-    height: 110px;
+    width: 100px;
+    height: 100px;
   }
 
   .timeline li .timeline-panel {
-    width: 70%;
-    transform: translateX(30px);
+    width: 60%;
+    transform: translateX(20px);
   }
 
   .timeline li .timeline-panel::before {
@@ -531,9 +531,5 @@ footer li {
     width: 1px;
     background-color: #e6e1e1;
     left: 22%;
-  }
-
-  .col .row img {
-    width: 60%;
   }
 }
