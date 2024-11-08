@@ -231,7 +231,7 @@ body {
   position: relative;
 }
 
-/* .timeline::before {
+.timeline::before {
   content: "";
   top: 0;
   bottom: 0;
@@ -239,7 +239,7 @@ body {
   width: 1px;
   background-color: #b6b1b1;
   left: 50%;
-} */
+}
 
 .timeline li {
   margin-bottom: 1.5rem;
@@ -438,9 +438,9 @@ footer li {
     display: none;
   }
 
-  /* .timeline::before {
+  .timeline::before {
     left: 100px;
-  } */
+  }
 
   .timeline li .timeline-image {
     left: 15px;
@@ -473,7 +473,7 @@ footer li {
     font-size: 65%;
   }
   .simply-countdown > .simply-section {
-    padding: 60px;
+    padding: 50px;
     margin: 5px;
   }
 
@@ -500,9 +500,15 @@ footer li {
     font-size: 70.5%;
   }
 
-  .simply-countdown > .simply-section {
+  .simply-countdown {
     display: flex;
-    padding: 40px;
+    justify-content: center;
+  }
+
+  .simply-countdown > .simply-section {
+    align-items: center;
+    display: flex;
+    padding: 45px;
     margin: 3px;
   }
 
@@ -511,10 +517,10 @@ footer li {
     height: 100px;
   }
 
-  /* .timeline li .timeline-panel {
+  .timeline li .timeline-panel {
     width: 60%;
     transform: translateX(20px);
-  } */
+  }
 
   .timeline li .timeline-panel::before {
     top: 30px;
@@ -524,7 +530,7 @@ footer li {
     top: 30px;
   }
 
-  /* .timeline::before {
+  .timeline::before {
     content: "";
     top: 0;
     bottom: 0;
@@ -532,5 +538,5 @@ footer li {
     width: 1px;
     background-color: #e6e1e1;
     left: 22%;
-  } */
+  }
 }
