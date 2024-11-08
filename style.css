@@ -470,7 +470,7 @@ footer li {
 /* tablet */
 @media (max-width: 768px) {
   html {
-    font-size: 65%;
+    font-size: 60%;
   }
   .simply-countdown > .simply-section {
     padding: 38px;
@@ -495,9 +495,9 @@ footer li {
 
 /* mobile Phone */
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
   html {
-    font-size: 70.5%;
+    font-size: 50.5%;
   }
 
   .simply-countdown {
